@@ -1,0 +1,10 @@
+11:50:37 DEBUG [org.jboss.logging] - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+11:50:37 INFO  [org.hibernate.Version] - HHH000412: Hibernate ORM core version 5.6.1.Final
+11:50:38 INFO  [org.hibernate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:50:38 WARN  [org.hibernate.orm.connections.pooling] - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+11:50:38 INFO  [org.hibernate.orm.connections.pooling] - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/library?serverTimezone=UTC]
+11:50:38 INFO  [org.hibernate.orm.connections.pooling] - HHH10001001: Connection properties: {user=root, password=****}
+11:50:38 INFO  [org.hibernate.orm.connections.pooling] - HHH10001003: Autocommit mode: false
+11:50:38 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] - HHH000115: Hibernate connection pool size: 20 (min=1)
+11:50:38 INFO  [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:50:38 INFO  [org.hibernate.orm.connections.access] - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@201aa8c1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
